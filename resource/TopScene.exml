@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TopScene" width="696" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="topbk_png" scale9Grid="2,2,19,18" width="696" anchorOffsetY="0" height="63"/>
+	<e:Image source="huangguanjingcai_png" x="16" y="16"/>
+	<e:Label text="号码" x="160" y="22" size="22" fontFamily="SimHei"/>
+	<e:Group id="m_gopNumber" x="226" y="0" anchorOffsetY="0">
+		<e:Image id="m_img0" source="num_num0_png" y="0" name="img0"/>
+		<e:Image id="m_img1" x="41" y="0" source="num_num0_png" name="img1"/>
+		<e:Image id="m_img2" x="82" y="0" source="num_num0_png" name="img2"/>
+		<e:Image id="m_img3" x="122" y="0" source="num_num0_png" name="img3"/>
+		<e:Image id="m_img4" x="161" y="0" source="num_num0_png" name="img4"/>
+	</e:Group>
+</e:Skin>

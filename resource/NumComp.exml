@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="NumComp" height="210" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="m_img0" source="num_num0_png" y="0"/>
+	<e:Image id="m_img1" source="num_num1_png" y="75"/>
+	<e:Image id="m_img2" y="150" source="num_num2_png"/>
+	<e:Image id="m_img3" y="225" source="num_num3_png"/>
+</e:Skin>

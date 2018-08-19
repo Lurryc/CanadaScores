@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MainStopScene" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:game="game.*" height="368" width="990">
+	<e:Group>
+		<e:Group>
+			<e:Group>
+			<e:Image source="timer_result_bg_png"/>
+			<e:Group x="480" y="93" scaleX="1" scaleY="1">
+				<e:Label text="第" x="0" y="0" size="26" bold="true" scaleX="1" scaleY="1" textColor="0xffffff"/>
+				<e:Label text="期开奖结果如下" x="224" y="0" size="26" bold="true" scaleX="1" scaleY="1" textColor="0xffffff"/>
+				<e:Label id="m_labQishu" text="" x="25" anchorOffsetX="0" width="199" textAlign="center" size="26" scaleX="1" scaleY="1" textColor="0xffffff"/>
+			</e:Group>
+			<e:Group id="m_gopHourMeter" width="132.5" height="133" x="270" y="156" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1">
+				<e:Label id="m_labTime" text="" anchorOffsetX="0" width="100%" textAlign="center" textColor="0xf2db0e" size="40" scaleX="1" scaleY="1" verticalCenter="0"/>
+				<e:Label id="m_labTipKaiJiang" text="开奖中" anchorOffsetX="0" width="100%" textAlign="center" textColor="0xF2DB0E" size="37" scaleX="1" scaleY="1" verticalCenter="0" bold="true" visible="false"/>
+			</e:Group>
+			<e:Group id="m_gopNum0" height="89" x="449" y="161" anchorOffsetX="0" anchorOffsetY="0" scrollEnabled="true" scaleX="1" scaleY="1">
+				<e:Image source="num_png" y="-900" scaleX="1" scaleY="1" name="up"/>
+				<e:Image source="num_png" name="down"/>
+			</e:Group>
+				<e:Group id="m_gopNum1" height="89" x="557" y="161" anchorOffsetX="0" anchorOffsetY="0" scrollEnabled="true" scaleX="1" scaleY="1">
+					<e:Image source="num_png" y="-900" scaleX="1" scaleY="1" name="up"/>
+					<e:Image source="num_png" name="down"/>
+				</e:Group>
+				<e:Group id="m_gopNum2" height="89" x="666" y="161" anchorOffsetX="0" anchorOffsetY="0" scrollEnabled="true" scaleX="1" scaleY="1">
+					<e:Image source="num_png" y="-900" scaleX="1" scaleY="1" name="up"/>
+					<e:Image source="num_png" name="down"/>
+				</e:Group>
+				<e:Group id="m_gopNum3" height="89" x="774" y="161" anchorOffsetX="0" anchorOffsetY="0" scrollEnabled="true" scaleX="1" scaleY="1">
+					<e:Image source="num_png" y="-900" scaleX="1" scaleY="1" name="up"/>
+					<e:Image source="num_png" name="down"/>
+				</e:Group>
+				<e:Group id="m_gopNum4" height="89" x="882" y="161" anchorOffsetX="0" anchorOffsetY="0" scrollEnabled="true" scaleX="1" scaleY="1">
+					<e:Image source="num_png" y="-900" scaleX="1" scaleY="1" name="up"/>
+					<e:Image source="num_png" name="down"/>
+				</e:Group>
+			<e:Label text="单双" x="480" y="295" size="25" textColor="0xf8c600" scaleX="1" scaleY="1" bold="true"/>
+			<e:Label text="大小" x="480" y="320" size="25" textColor="0xF8C600" scaleX="1" scaleY="1" bold="true"/>
+			<e:Label id="m_labBallUp1" text="单" x="570" y="295" size="25" scaleX="1" scaleY="1" textColor="0xffffff"/>
+			<e:Label id="m_labBallDown1" text="单" x="570" y="320" size="25" scaleX="1" scaleY="1" textColor="0xffffff"/>
+			<e:Label id="m_labBallUp2" text="单" x="644" y="295" size="25" scaleX="1" scaleY="1" textColor="0xffffff"/>
+			<e:Label id="m_labBallDown2" text="单" x="644" y="320" size="25" scaleX="1" scaleY="1" textColor="0xffffff"/>
+			<e:Label id="m_labBallUp3" text="单" x="718" y="295" size="25" scaleX="1" scaleY="1" textColor="0xfcfcfc"/>
+			<e:Label id="m_labBallDown3" text="单" x="718" y="320" size="25" scaleX="1" scaleY="1" textColor="0xffffff"/>
+			<e:Label id="m_labBallUp4" text="单" x="791" y="295" size="25" scaleX="1" scaleY="1" textColor="0xffffff"/>
+			<e:Label id="m_labBallDown4" text="单" x="791" y="320" size="25" scaleX="1" scaleY="1" textColor="0xffffff"/>
+			<e:Label id="m_labBallUp5" text="单" x="864" y="295" size="25" scaleX="1" scaleY="1" textColor="0xffffff"/>
+			<e:Label id="m_labBallDown5" text="单" x="864" y="320" size="25" scaleX="1" scaleY="1" textColor="0xffffff"/>
+			</e:Group>
+			<e:Label id="m_labQishuNext" text="" x="27" y="124" anchorOffsetX="0" size="30" textColor="0xbfbfbf"/>
+			<e:Label id="m_labKaijiang" text="" x="27" y="265" size="30" textColor="0xbfbfbf"/>
+			<e:Image id="m_imgSoundOpen" source="racing_car_voice_open_png" x="933" y="36" anchorOffsetX="22" anchorOffsetY="22"/>
+			<e:Image id="m_imgSoundClose" source="racing_car_voice_close_png" x="933" y="36" anchorOffsetX="28" anchorOffsetY="28"/>
+		</e:Group>
+		<e:Image id="m_imgTopNum0" source="num_num0_png" x="439" y="16" scaleX="0.9" scaleY="0.9"/>
+		<e:Image id="m_imgTopNum1" source="num_num0_png" x="517" y="16" scaleX="0.9" scaleY="0.9"/>
+		<e:Image id="m_imgTopNum2" source="num_num0_png" x="595" y="16" scaleX="0.9" scaleY="0.9"/>
+		<e:Image id="m_imgTopNum3" source="num_num0_png" x="673" y="16" scaleX="0.9" scaleY="0.9"/>
+		<e:Image id="m_imgTopNum4" source="num_num0_png" x="751" y="16" scaleX="0.9" scaleY="0.9"/>
+			<e:Group id="m_gopMask" width="481" height="35" x="114" y="328" anchorOffsetY="0" anchorOffsetX="0" visible="false">
+		<e:Label id="m_labTip" text="[欢迎光临] 尊敬的各位玩家，感谢您的大力支持" x="487" y="9" fontFamily="SimHei" size="16" scaleX="1" scaleY="1" bold="true" textColor="0x072bf7" border="false" background="true" backgroundColor="0xc4b8b8"/>
+	</e:Group>
+	</e:Group>
+</e:Skin>
